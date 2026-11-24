@@ -11,7 +11,7 @@ int main (int argc, char *argv[]) {
         "Agua con gas", "Agua", "Cola", "Cerveza"
     };
     int demanda[25] = {0}, estado[25] = {0}, contP = 20, opc, opc2;
-    float tiempo[25] = {5,5,5,4, 5,5,5,4, 4,4.5,5,4, 3.5,3,5,4.5, 1,1,1,1}, tiempoDisp = 12.0;
+    float tiempo[25] = {5,5,5,4, 5,5,5,4, 4,4.5,5,4, 3.5,3,5,4.5, 0.1,0.1,0.1,0.1}, tiempoDisp = 12.0;
 
     char nombresStock[27][30] = {
         "Desechables","Pan de hamburguesa","Pan de baguette","Lechuga","Carne","Lomo de res","Tomate",
